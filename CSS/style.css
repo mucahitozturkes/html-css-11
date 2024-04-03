@@ -1,0 +1,83 @@
+:root {
+    --Magenta: hsl(300, 43%, 22%);
+    --Pink: hsl(333, 80%, 67%);
+
+    --DarkMagenta: hsl(303, 10%, 53%);
+    --LightMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    font-family: "League Spartan";
+}
+
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: var(--VeryLightGray);
+    margin: 1rem;
+}
+
+.main {
+    padding: 2rem;
+}
+
+.container1,
+.container2 {
+    margin-bottom: 2rem;
+}
+
+.container2 >* {
+    background-color: var(--LightMagenta);
+    margin-bottom: 1rem;
+    padding-block: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+h4 {
+    margin-bottom: 0.3rem;
+}
+
+.container3 >* {
+    background-color: var(--Magenta);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+
+.card1 img,
+.card2 img,
+.card3 img {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 1.5rem;
+    
+}
+
+.profiles {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+hr {
+    border: 4px solid var(--LightMagenta);;
+}

@@ -1,0 +1,37 @@
+:root {
+    --Magenta: hsl(300, 43%, 22%);
+    --Pink: hsl(333, 80%, 67%);
+    --DarkMagenta: hsl(303, 10%, 53%);
+    --LightMagenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+h6 {
+    color: var(--DarkMagenta);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h3 {
+    color: var(--Magenta);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+h4 {
+    color: var(--White);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+h5 {
+    color: var(--Pink);
+}
+
+h2 {
+    color: var(--White);
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
